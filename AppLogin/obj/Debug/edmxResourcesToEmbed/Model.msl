@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище DB_MogJelModelContainer" CdmEntityContainer="DB_MogJelEntities1">
+    <FunctionImportMapping FunctionImportName="ReportAdditionDetails" FunctionName="Хранилище DB_MogJelModel.ReportAdditionDetails">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DB_MogJelModel.ReportAdditionDetails_Result">
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Фио" ColumnName="Фио" />
+          <ScalarProperty Name="Отдел" ColumnName="Отдел" />
+          <ScalarProperty Name="Id_Detail" ColumnName="Id_Detail" />
+          <ScalarProperty Name="Вид" ColumnName="Вид" />
+          <ScalarProperty Name="Тип" ColumnName="Тип" />
+          <ScalarProperty Name="Модель" ColumnName="Модель" />
+          <ScalarProperty Name="Количество" ColumnName="Количество" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,27 @@
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\bin\Debug\AppLogin.exe.config
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\bin\Debug\AppLogin.exe
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\bin\Debug\AppLogin.pdb
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\obj\Debug\AppLogin.Properties.Resources.resources
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\obj\Debug\Mojelit.csproj.GenerateResource.Cache
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\obj\Debug\Mojelit.csproj.CoreCompileInputs.cache
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\obj\Debug\AppLogin.exe
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\obj\Debug\AppLogin.pdb
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\obj\Debug\AppLogin.frmLoginPass.resources
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\obj\Debug\AppLogin.frmMainMenu.resources
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\obj\Debug\AppLogin.ControlDetailOnDepartament.resources
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\obj\Debug\AppLogin.ControlAddDetails.resources
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\obj\Debug\AppLogin.ControlAllDetails.resources
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\obj\Debug\AppLogin.ControlCreaterReport.resources
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\obj\Debug\AppLogin.ControlAdministration.resources
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\bin\Debug\Mojelit.BL.dll
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\bin\Debug\Mojelit.BL.pdb
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\bin\Debug\Mojelit.BL.dll.config
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\obj\Debug\AppLogin.ControlAllDepartaments.resources
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\obj\Debug\AppLogin.ControlAddDet.resources
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\bin\Debug\DGV Printer.dll
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\obj\Debug\Mojelit.csprojAssemblyReference.cache
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\obj\Debug\Mojelit.csproj.CopyComplete
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\bin\Debug\ru-RU\AppLogin.resources.dll
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\obj\Debug\AppLogin.FrmSelectTransfer.resources
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\obj\Debug\AppLogin.ControlCreaterReport.ru-RU.resources
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\obj\Debug\ru-RU\AppLogin.resources.dll

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mojelit", "AppLogin\Mojelit.csproj", "{AB0A441B-60AA-4D3B-AE17-00777047CCB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mojelit.BL", "Mojelit.BL\Mojelit.BL.csproj", "{802984C5-9017-41E2-92D3-92D1ECCBAFAA}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupMojelit", "SetupMojelit\SetupMojelit.vdproj", "{19F8905D-2735-49B9-ABDD-BD72AE34D012}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB0A441B-60AA-4D3B-AE17-00777047CCB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB0A441B-60AA-4D3B-AE17-00777047CCB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB0A441B-60AA-4D3B-AE17-00777047CCB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB0A441B-60AA-4D3B-AE17-00777047CCB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{802984C5-9017-41E2-92D3-92D1ECCBAFAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{802984C5-9017-41E2-92D3-92D1ECCBAFAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{802984C5-9017-41E2-92D3-92D1ECCBAFAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{802984C5-9017-41E2-92D3-92D1ECCBAFAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19F8905D-2735-49B9-ABDD-BD72AE34D012}.Debug|Any CPU.ActiveCfg = Debug
+		{19F8905D-2735-49B9-ABDD-BD72AE34D012}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA6CDAC1-C191-4075-807E-9AB6BC41E2B6}
+	EndGlobalSection
+EndGlobal

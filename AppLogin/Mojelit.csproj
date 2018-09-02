@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AB0A441B-60AA-4D3B-AE17-00777047CCB4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AppLogin</RootNamespace>
+    <AssemblyName>AppLogin</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DGV Printer">
+      <HintPath>..\..\..\DGV Printer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Security" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\ControlAddDet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ControlAddDet.Designer.cs">
+      <DependentUpon>ControlAddDet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ControlAdministration.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ControlAdministration.Designer.cs">
+      <DependentUpon>ControlAdministration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ControlAllDepartaments.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ControlAllDepartaments.Designer.cs">
+      <DependentUpon>ControlAllDepartaments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ControlAllDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ControlAllDetails.Designer.cs">
+      <DependentUpon>ControlAllDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ControlAddDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ControlAddDetails.Designer.cs">
+      <DependentUpon>ControlAddDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ControlCreaterReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ControlCreaterReport.Designer.cs">
+      <DependentUpon>ControlCreaterReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ControlDetailOnDepartament.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ControlDetailOnDepartament.Designer.cs">
+      <DependentUpon>ControlDetailOnDepartament.cs</DependentUpon>
+    </Compile>
+    <Compile Include="1FrmSelectTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1FrmSelectTransfer.Designer.cs">
+      <DependentUpon>1FrmSelectTransfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presenters\PresenterCtrlAdministration.cs" />
+    <Compile Include="FrmLoginPass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLoginPass.Designer.cs">
+      <DependentUpon>FrmLoginPass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMainMenu.Designer.cs">
+      <DependentUpon>FrmMainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presenters\PresenterCrtlAddDetails.cs" />
+    <Compile Include="Presenters\PresenterCtrlAllDetails.cs" />
+    <Compile Include="Presenters\PresenterCtrlCreateReport.cs" />
+    <Compile Include="Presenters\PresenterCtrlDepartaments.cs" />
+    <Compile Include="Presenters\PresenterDetailsInUserDepartment.cs" />
+    <Compile Include="Presenters\PresenterLoginPass.cs" />
+    <Compile Include="Presenters\PresenterMainMenu.cs" />
+    <Compile Include="MessageService.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Controls\ControlAddDet.resx">
+      <DependentUpon>ControlAddDet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ControlAdministration.resx">
+      <DependentUpon>ControlAdministration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ControlAllDepartaments.resx">
+      <DependentUpon>ControlAllDepartaments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ControlAllDetails.resx">
+      <DependentUpon>ControlAllDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ControlAddDetails.resx">
+      <DependentUpon>ControlAddDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ControlCreaterReport.resx">
+      <DependentUpon>ControlCreaterReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ControlCreaterReport.ru-RU.resx">
+      <DependentUpon>ControlCreaterReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ControlDetailOnDepartament.resx">
+      <DependentUpon>ControlDetailOnDepartament.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLoginPass.resx">
+      <DependentUpon>FrmLoginPass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMainMenu.resx">
+      <DependentUpon>FrmMainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1FrmSelectTransfer.resx">
+      <DependentUpon>1FrmSelectTransfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\Mojelit.BL.IBDManager.datasource" />
+    <None Include="Properties\DataSources\ReaderDB.datasource" />
+    <None Include="Properties\DataSources\ReportAdditionDetails_Result.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Mojelit.BL\Mojelit.BL.csproj">
+      <Project>{802984c5-9017-41e2-92d3-92d1eccbafaa}</Project>
+      <Name>Mojelit.BL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

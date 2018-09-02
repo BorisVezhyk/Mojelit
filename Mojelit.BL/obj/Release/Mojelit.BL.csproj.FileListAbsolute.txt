@@ -1,0 +1,7 @@
+D:\Учеба\Можелит\Project\AppLogin\Mojelit.BL\bin\Release\Mojelit.BL.dll.config
+D:\Учеба\Можелит\Project\AppLogin\Mojelit.BL\bin\Release\Mojelit.BL.dll
+D:\Учеба\Можелит\Project\AppLogin\Mojelit.BL\bin\Release\Mojelit.BL.pdb
+D:\Учеба\Можелит\Project\AppLogin\Mojelit.BL\obj\Release\Mojelit.BL.csproj.CoreCompileInputs.cache
+D:\Учеба\Можелит\Project\AppLogin\Mojelit.BL\obj\Release\Mojelit.BL.dll
+D:\Учеба\Можелит\Project\AppLogin\Mojelit.BL\obj\Release\Mojelit.BL.pdb
+D:\Учеба\Можелит\Project\AppLogin\Mojelit.BL\obj\Release\Mojelit.BL.csprojAssemblyReference.cache

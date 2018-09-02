@@ -1,0 +1,11 @@
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\bin\Debug\AppLogin.exe.config
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\bin\Debug\AppLogin.exe
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\bin\Debug\AppLogin.pdb
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\obj\Debug\AppLogin.csprojResolveAssemblyReference.cache
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\obj\Debug\AppLogin.Form1.resources
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\obj\Debug\AppLogin.Properties.Resources.resources
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\obj\Debug\AppLogin.csproj.GenerateResource.Cache
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\obj\Debug\AppLogin.csproj.CoreCompileInputs.cache
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\obj\Debug\AppLogin.exe
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\obj\Debug\AppLogin.pdb
+D:\Учеба\Можелит\Project\AppLogin\AppLogin\obj\Debug\AppLogin.MainMenu.resources
